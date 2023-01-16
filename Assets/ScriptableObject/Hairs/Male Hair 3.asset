@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ac84a2e0c0e1274788ac76c1d4d7fe8, type: 3}
+  m_Name: Male Hair 3
+  m_EditorClassIdentifier: 
+  frontSprite: {fileID: -1045721391, guid: c2f4dee48897ae74b997c0297a1f87d6, type: 3}
+  rightSprite: {fileID: -1881820052, guid: c2f4dee48897ae74b997c0297a1f87d6, type: 3}
+  leftSprite: {fileID: 1956211427, guid: c2f4dee48897ae74b997c0297a1f87d6, type: 3}
+  backSprite: {fileID: -1755915718, guid: c2f4dee48897ae74b997c0297a1f87d6, type: 3}
