@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75898c0c3450194c9157c9b8017198e, type: 3}
+  m_Name: Good Grief Shirt
+  m_EditorClassIdentifier: 
+  name: '"Good Grief" Shirt'
+  description: A good ol' shirt...
+  buyValue: 120
+  sellValue: 80
+  frontSprite: {fileID: 151316323, guid: f752068147bd1ae4fb798b6945ded626, type: 3}
+  rightSprite: {fileID: -1085331384, guid: f752068147bd1ae4fb798b6945ded626, type: 3}
+  leftSprite: {fileID: -787534926, guid: f752068147bd1ae4fb798b6945ded626, type: 3}
+  backSprite: {fileID: -601512389, guid: f752068147bd1ae4fb798b6945ded626, type: 3}

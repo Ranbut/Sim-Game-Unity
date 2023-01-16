@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75898c0c3450194c9157c9b8017198e, type: 3}
+  m_Name: Skull Shirt
+  m_EditorClassIdentifier: 
+  name: Skull Shirt
+  description: ' A shirt with a menacing skull printed on it.'
+  buyValue: 45
+  sellValue: 30
+  frontSprite: {fileID: -469176979, guid: e513f55870323bf4cb30347d863d6829, type: 3}
+  rightSprite: {fileID: 8267844, guid: e513f55870323bf4cb30347d863d6829, type: 3}
+  leftSprite: {fileID: 505267829, guid: e513f55870323bf4cb30347d863d6829, type: 3}
+  backSprite: {fileID: -274885239, guid: e513f55870323bf4cb30347d863d6829, type: 3}

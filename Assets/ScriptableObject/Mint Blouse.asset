@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75898c0c3450194c9157c9b8017198e, type: 3}
+  m_Name: Mint Blouse
+  m_EditorClassIdentifier: 
+  name: Mint Blouse
+  description: A cute, light green blouse.
+  buyValue: 50
+  sellValue: 20
+  frontSprite: {fileID: 1990087292, guid: edc373d9ab8f66c43acb5068b7821ecc, type: 3}
+  rightSprite: {fileID: -1938581153, guid: edc373d9ab8f66c43acb5068b7821ecc, type: 3}
+  leftSprite: {fileID: -1972454503, guid: edc373d9ab8f66c43acb5068b7821ecc, type: 3}
+  backSprite: {fileID: -2027151148, guid: edc373d9ab8f66c43acb5068b7821ecc, type: 3}

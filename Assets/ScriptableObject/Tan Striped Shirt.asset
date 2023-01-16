@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75898c0c3450194c9157c9b8017198e, type: 3}
+  m_Name: Tan Striped Shirt
+  m_EditorClassIdentifier: 
+  name: Tan Striped Shirt
+  description: A tan shirt with a white stripe going through the middle of it.
+  buyValue: 100
+  sellValue: 70
+  frontSprite: {fileID: 568304807, guid: f77d9c0e16fe93d449719b2d6b70a28b, type: 3}
+  rightSprite: {fileID: 1354526509, guid: f77d9c0e16fe93d449719b2d6b70a28b, type: 3}
+  leftSprite: {fileID: 394348258, guid: f77d9c0e16fe93d449719b2d6b70a28b, type: 3}
+  backSprite: {fileID: 1187411626, guid: f77d9c0e16fe93d449719b2d6b70a28b, type: 3}
