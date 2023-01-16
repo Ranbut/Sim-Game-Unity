@@ -37,14 +37,42 @@ public class PlayerAppearance : MonoBehaviour
     private void UpdateApperance()
     {
         //Hair
-        hairRenderer.sprite = hair.frontSprite;
+        switch (controller.playerOrientation)
+        {
+            case 0:
+                hairRenderer.sprite = hair.frontSprite;
+                break;
+            case 1:
+                hairRenderer.sprite = hair.rightSprite;
+                break;
+            case 2:
+                hairRenderer.sprite = hair.leftSprite;
+                break;
+            case 3:
+                hairRenderer.sprite = hair.backSprite;
+                break;
+        }
         hairRenderer.color = hairColor;
 
         //Eyes
         eyesRenderer.color = eyesColor;
 
         //Shirt
-        shirtRenderer.sprite = shirt.frontSprite;
+        switch (controller.playerOrientation)
+        {
+            case 0:
+                shirtRenderer.sprite = shirt.frontSprite;
+                break;
+            case 1:
+                shirtRenderer.sprite = shirt.rightSprite;
+                break;
+            case 2:
+                shirtRenderer.sprite = shirt.leftSprite;
+                break;
+            case 3:
+                shirtRenderer.sprite = shirt.backSprite;
+                break;
+        }
 
         //Pants
         pantsRenderer.color = pantsColor;
