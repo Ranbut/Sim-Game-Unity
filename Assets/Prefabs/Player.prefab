@@ -202,8 +202,8 @@ Transform:
   m_Children:
   - {fileID: 8105819002939155474}
   - {fileID: 8105819003394836732}
-  - {fileID: 8105819003098403092}
   - {fileID: 8105819003776152394}
+  - {fileID: 8105819003098403092}
   - {fileID: 8105819002622360397}
   - {fileID: 8105819002567708683}
   m_Father: {fileID: 0}
@@ -268,6 +268,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22903442c5548d249bdd3e2a071e45b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 5
+  playerOrientation: 0
 --- !u!114 &3071014342261089938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,6 +282,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a4d9196f4b102a4eb729467e8c29a8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hair: {fileID: 11400000, guid: d0f80aa05a220c544be5a9d82d6d875f, type: 2}
+  hairColor: {r: 0.5294118, g: 0.19607843, b: 0, a: 1}
+  hairRenderer: {fileID: 8105819002939155485}
+  eyesColor: {r: 0, g: 0, b: 0.78431374, a: 1}
+  eyesRenderer: {fileID: 8105819003394836735}
+  shirt: {fileID: 11400000, guid: 8cf700b0125d43c4b8d48e4c1da34925, type: 2}
+  shirtRenderer: {fileID: 8105819003776152373}
+  pantsColor: {r: 0.33333334, g: 0.11764706, b: 0, a: 1}
+  pantsRenderer: {fileID: 8105819002567708682}
 --- !u!1 &8105819002939155475
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,7 +405,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8105819002934463364}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8105819003098403095
 SpriteRenderer:
@@ -562,7 +573,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8105819002934463364}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8105819003776152373
 SpriteRenderer:
@@ -604,7 +615,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1303344930, guid: 1a0d1e5888c85a4408435dd5cea1d33a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
