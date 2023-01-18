@@ -7,6 +7,7 @@ public class Interactable : MonoBehaviour
     public bool playerClose = false;
     private CursorMode cursorMode = CursorMode.Auto;
     private Vector2 hotSpot = Vector2.zero;
+    public int type;
 
     private void Update()
     {
