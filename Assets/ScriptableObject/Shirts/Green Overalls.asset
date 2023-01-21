@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Green Overalls
   m_EditorClassIdentifier: 
   name: Green Overalls
+  icon: {fileID: -277709020, guid: c4a2658f5638a304cb5c567adb0aa859, type: 3}
+  itemType: 2
+  stackable: 0
   description: A slightly less popular farming classic.
   buyValue: 5
   sellValue: 2

@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Light Blue Shirt
   m_EditorClassIdentifier: 
   name: Light Blue Shirt
+  icon: {fileID: -1419517268, guid: eef183de318963b428fe122e3c97d0c0, type: 3}
+  itemType: 2
+  stackable: 0
   description: A light blue shirt.
   buyValue: 70
   sellValue: 50

@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Good Grief Shirt
   m_EditorClassIdentifier: 
   name: '"Good Grief" Shirt'
+  icon: {fileID: 151316323, guid: f752068147bd1ae4fb798b6945ded626, type: 3}
+  itemType: 2
+  stackable: 0
   description: A good ol' shirt...
   buyValue: 120
   sellValue: 80

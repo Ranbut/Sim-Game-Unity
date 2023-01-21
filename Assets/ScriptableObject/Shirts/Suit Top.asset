@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Suit Top
   m_EditorClassIdentifier: 
   name: Suit Top
+  icon: {fileID: 1188559071, guid: e998d3e93f7ca7c4ca41b5ec3582976c, type: 3}
+  itemType: 2
+  stackable: 0
   description: A formal top for fancy events and celebrations.
   buyValue: 500
   sellValue: 350

@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Skull Shirt
   m_EditorClassIdentifier: 
   name: Skull Shirt
+  icon: {fileID: -469176979, guid: e513f55870323bf4cb30347d863d6829, type: 3}
+  itemType: 2
+  stackable: 0
   description: ' A shirt with a menacing skull printed on it.'
   buyValue: 45
   sellValue: 30

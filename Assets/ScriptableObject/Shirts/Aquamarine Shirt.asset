@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Aquamarine Shirt
   m_EditorClassIdentifier: 
   name: Aquamarine Shirt
+  icon: {fileID: 1190552188, guid: 26bd93eb8f2b396488ddb2991c92da5e, type: 3}
+  itemType: 2
+  stackable: 0
   description: An aquamarine shirt.
   buyValue: 60
   sellValue: 40

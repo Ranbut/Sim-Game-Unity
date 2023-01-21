@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Classic Overalls
   m_EditorClassIdentifier: 
   name: Classic Overalls
+  icon: {fileID: 1303344930, guid: 1a0d1e5888c85a4408435dd5cea1d33a, type: 3}
+  itemType: 2
+  stackable: 0
   description: A farming classic.
   buyValue: 10
   sellValue: 10

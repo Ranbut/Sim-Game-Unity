@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Dark Shirt
   m_EditorClassIdentifier: 
   name: Dark Shirt
+  icon: {fileID: 1050926180, guid: eb581a22c3de47141be4fbc148eb7e2b, type: 3}
+  itemType: 2
+  stackable: 0
   description: ' A dark colored shirt.'
   buyValue: 30
   sellValue: 15

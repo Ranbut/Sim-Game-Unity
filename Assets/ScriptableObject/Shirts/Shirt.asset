@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Shirt
   m_EditorClassIdentifier: 
   name: Shirt
+  icon: {fileID: 884463479, guid: 26c83d8693a01bb47bd512d28f0e7fa5, type: 3}
+  itemType: 2
+  stackable: 0
   description: A wearable shirt.
   buyValue: 10
   sellValue: 5

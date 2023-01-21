@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Mint Blouse
   m_EditorClassIdentifier: 
   name: Mint Blouse
+  icon: {fileID: 1990087292, guid: edc373d9ab8f66c43acb5068b7821ecc, type: 3}
+  itemType: 2
+  stackable: 0
   description: A cute, light green blouse.
   buyValue: 50
   sellValue: 20
