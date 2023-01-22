@@ -10,11 +10,12 @@ public class DialogueManager : MonoBehaviour
 	public TMP_Text dialogueText;
 	public TMP_Text messageText;
 	public int typeOfMessage = -1;
-
+	public PlayerController controller;
 	public GameObject messageBox;
 	public GameObject dialogueBox;
 
 	private Animator anim;
+	[HideInInspector]public Shop shop;
 
 	private bool dialogueStarted = false;
 	private Queue<string> sentences;
@@ -49,6 +50,7 @@ public class DialogueManager : MonoBehaviour
 		else if (typeOfMessage == 1)
 			anim = dialogueBox.GetComponent<Animator>();
 
+		controller.freezePlayer = true;
 		anim.SetBool("IsOpen", true);
 
 		nameText.text = dialogue.name;
@@ -97,6 +99,10 @@ public class DialogueManager : MonoBehaviour
 	void EndDialogue()
 	{
 		anim.SetBool("IsOpen", false);
+		if (shop == null)
+			controller.freezePlayer = false;
+		else
+			shop.OpenShop();
 	}
 
 	private void PlayerInput()

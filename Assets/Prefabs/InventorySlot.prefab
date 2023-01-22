@@ -68,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b5d78b27ee843264b9e9b2c9a3687490, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 69762bbd7538050448214d36359845b3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -117,3 +117,5 @@ MonoBehaviour:
   selector: {fileID: 5945296371227897368}
   selectedColor: {r: 1, g: 1, b: 1, a: 0}
   notSelectedColor: {r: 1, g: 1, b: 1, a: 0.39215687}
+  itemInSlot: {fileID: 0}
+  equipSlot: 0

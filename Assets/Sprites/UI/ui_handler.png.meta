@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bd0f45289f07467469af9bc61194a050
+guid: 0f386e1fdbeb0c1458149950e55e4922
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -102,91 +102,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: ui_seasons_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e54813da602399a4b8abd664d21df067
-      internalID: 1627454306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_seasons_1
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 0
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0cf691fae5975614882578466bff8487
-      internalID: 571555712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_seasons_2
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 0
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5d2190ea394b0b449e284702d97b10b
-      internalID: -1915258683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_seasons_3
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 0
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9b3372e46b74694f9e22aca91e94690
-      internalID: -1757705804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -197,11 +113,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      ui_seasons_2: -1915258683
-      ui_seasons_1: 571555712
-      ui_seasons_0: 1627454306
-      ui_seasons_3: -1757705804
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

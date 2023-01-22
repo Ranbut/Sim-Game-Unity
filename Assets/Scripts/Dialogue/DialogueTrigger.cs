@@ -5,11 +5,13 @@ public class DialogueTrigger : MonoBehaviour
 
 	public Dialogue dialogue;
     private Interactable interactable;
+    private Shop shop;
     private bool dialogueStarted = false;
 
     private void Start()
     {
         interactable = GetComponent<Interactable>();
+        shop = GetComponent<Shop>();
     }
 
     private void Update()
@@ -19,8 +21,11 @@ public class DialogueTrigger : MonoBehaviour
 
     public void TriggerDialogue()
 	{
-        FindObjectOfType<DialogueManager>().typeOfMessage = interactable.type;
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        DialogueManager dialogueManager = FindObjectOfType<DialogueManager>(); ;
+        dialogueManager.shop = shop;
+        dialogueManager.typeOfMessage = interactable.type;
+        dialogueManager.controller = interactable.controller;
+        dialogueManager.StartDialogue(dialogue);
     }
 
     private void PlayerInput()

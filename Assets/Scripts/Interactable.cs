@@ -5,6 +5,7 @@ public class Interactable : MonoBehaviour
     public Texture2D cursorTexture;
     public bool mouseOverObject;
     public bool playerClose = false;
+    public PlayerController controller;
     private CursorMode cursorMode = CursorMode.Auto;
     private Vector2 hotSpot = Vector2.zero;
     public int type;
@@ -31,6 +32,7 @@ public class Interactable : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            controller = other.GetComponent<PlayerController>();
             playerClose = true;
         }
     }
